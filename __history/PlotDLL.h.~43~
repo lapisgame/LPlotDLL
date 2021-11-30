@@ -1,0 +1,17 @@
+#ifndef __PLOTDLL_H
+#define __PLOTDLL_H
+
+#ifdef PLOTDLL_EXPORTS
+#define DLL_SPEC extern "C" __declspec(dllexport)
+
+#else
+#define DLL_SPEC extern "C" __declspec(dllimport)
+#endif
+
+DLL_SPEC int Summa(int a, int b);
+DLL_SPEC double podstav(int n, double x, double (*f)(int,double));
+DLL_SPEC void LPlot(float x1, float x2, float y1, float y2, int kf, double (*funct[])(double), TImage * canv);
+DLL_SPEC int ZoomX(float x, float x1, float x2, float xx1, float xx2);
+DLL_SPEC int ZoomY(float y, float y1, float y2, float yy1, float yy2);
+
+#endif

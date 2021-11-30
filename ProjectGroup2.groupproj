@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{8D122474-109B-4159-A947-FAAE285D586E}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="PlotDLL.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Proj.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="PlotDLL">
+        <MSBuild Projects="PlotDLL.cbproj"/>
+    </Target>
+    <Target Name="PlotDLL:Clean">
+        <MSBuild Projects="PlotDLL.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PlotDLL:Make">
+        <MSBuild Projects="PlotDLL.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Proj">
+        <MSBuild Projects="Proj.cbproj"/>
+    </Target>
+    <Target Name="Proj:Clean">
+        <MSBuild Projects="Proj.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Proj:Make">
+        <MSBuild Projects="Proj.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="PlotDLL;Proj"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="PlotDLL:Clean;Proj:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="PlotDLL:Make;Proj:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

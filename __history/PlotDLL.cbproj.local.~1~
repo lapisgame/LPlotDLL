@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2021.11.13 18:04:18.792,=C:\Users\lapis\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021.11.13 18:04:18.819,=C:\Users\lapis\Documents\Embarcadero\Studio\Projects\File2.cpp</Transaction>
+    <Transaction>2021.11.13 18:04:26.696,C:\Users\lapis\Documents\Embarcadero\Studio\Projects\TestDLLPCH2.h=C:\Users\lapis\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021.11.13 18:04:26.697,C:\Users\lapis\Documents\Embarcadero\Studio\Projects\TestDLL.cbproj=C:\Users\lapis\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2021.11.13 18:04:31.633,C:\Users\lapis\Documents\Embarcadero\Studio\Projects\PlotDLLPCH1.h=C:\Users\lapis\Documents\Embarcadero\Studio\Projects\TestDLLPCH2.h</Transaction>
+    <Transaction>2021.11.13 18:04:31.634,C:\Users\lapis\Documents\Embarcadero\Studio\Projects\PlotDLL.cbproj=C:\Users\lapis\Documents\Embarcadero\Studio\Projects\TestDLL.cbproj</Transaction>
+    <Transaction>2021.11.13 18:04:39.636,J:\Универ\Алексеев Евгений Ростиславоавич\LIB\File2.cpp=C:\Users\lapis\Documents\Embarcadero\Studio\Projects\File2.cpp</Transaction>
+    <Transaction>2021.11.13 18:04:41.676,J:\Универ\Алексеев Евгений Ростиславоавич\LIB\PlotDLLPCH1.h=C:\Users\lapis\Documents\Embarcadero\Studio\Projects\PlotDLLPCH1.h</Transaction>
+    <Transaction>2021.11.13 18:04:42.702,J:\Универ\Алексеев Евгений Ростиславоавич\LIB\PlotDLL.cbproj=C:\Users\lapis\Documents\Embarcadero\Studio\Projects\PlotDLL.cbproj</Transaction>
+    <Transaction>2021.11.13 18:09:36.124,=J:\Универ\Алексеев Евгений Ростиславоавич\LIB\File1.h</Transaction>
+    <Transaction>2021.11.13 18:09:52.227,J:\Универ\Алексеев Евгений Ростиславоавич\LIB\PlotDLL.h=J:\Универ\Алексеев Евгений Ростиславоавич\LIB\File1.h</Transaction>
+  </Transactions>
+  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="File2.cpp"/>
+    <File Path="PlotDLL.h"/>
+    <File Path="PlotDLLPCH1.h"/>
+  </ProjectSortOrder>
+</BorlandProject>
